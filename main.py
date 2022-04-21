@@ -12,11 +12,6 @@ for i in range(len(values)):
 bFirst = mAvl.traverseBreadFirst(AVL)
 mll.printlist(bFirst)
 
-print(f"\nAltura del árbol: {mAvl.heightWithRoot(AVL.root)}")
-leftLimit = 41
-rightLimit = 63
-print(f"\nCantidad de nodos entre {leftLimit} y {rightLimit}: {mAvl.countNodes(AVL.root,leftLimit,rightLimit)}")
-
 key = 53
 print(f"\nKey del nodo a eliminar: {key}")
 mAvl.deleteKey(AVL,key)
